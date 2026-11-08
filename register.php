@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (
         empty($username) ||
         empty($email) ||
-        empty($password) ||
+        empty($password)
     ){
         $error = "All fields are required."; 
     }
